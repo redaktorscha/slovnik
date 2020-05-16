@@ -27,9 +27,9 @@ const makeStringSet = (str) => {
 }
 
 
-const makeDiffList = (input, link) => {
+const makeAlphaList = (input, link) => {
     writeToFile(link, input);
 }
 
 
-makeDiffList(makeStringSet(readFromFile('./text.txt')), './text2.txt');
+makeAlphaList(makeStringSet(readFromFile('./text.txt')), './text2.txt');
